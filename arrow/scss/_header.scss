@@ -1,0 +1,56 @@
+.header-img {
+    position: absolute;
+    z-index: 1;
+    height: 700px;
+    width: 110%;
+    background: url(../img/banner01.jpg) no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.header-overlap {
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: relative;
+    z-index: 5;
+}
+
+.header-overlap h1 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 60px;
+    padding-top: 280px;
+}
+
+.header-overlap p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-top: 20px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.btn-success1 {
+    margin-top: 20px;
+    background-color: $c1;
+    border-radius: 60px;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: relative;
+    top: -10px;
+    border: none;
+    padding: 20px 33px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+
+.btn-success1:hover {
+    background-color: #000;
+    color: #fff;
+}

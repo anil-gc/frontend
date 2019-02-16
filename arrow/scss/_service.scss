@@ -1,0 +1,40 @@
+.service-section {
+    background-color: $c2;
+    padding-bottom: 100px;
+    height: 650px;
+}
+
+.service-section h2 {
+    padding: 40px 0 0 0;
+    text-transform: capitalize;
+}
+
+.service-section p {
+    color: $c3;
+}
+
+.service-section img {
+    height: 420px;
+}
+
+.service-section h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.pd {
+    padding-top: 50px;
+}
+
+.decoration {
+    color: $c1;
+}
+
+.hr {
+  border-top: 2px solid $c1!important;
+display: inline-block;  
+} 
+
+.ser {
+    padding-bottom: 70px;
+}

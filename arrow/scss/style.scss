@@ -1,0 +1,27 @@
+@import 'variable';
+@import 'header';
+@import 'nav';
+@import 'footer';
+@import 'service';
+@import 'testmonials';
+@import 'viewservice';
+@import 'signup';
+@import 'design';
+@import 'scrollup';
+@import 'team';
+@import 'counter';
+@import 'loader';
+
+body {
+    font-family: 'Roboto', "Droid Arabic Kufi", sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
